@@ -1,0 +1,50 @@
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.logodiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.side {
+  width: 40%;
+}
+.box {
+  width: 87%;
+  margin-left: 6%;
+  display: flex;
+  flex-direction: row;
+}
+.para {
+  padding-right: 15%;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    width: 100%;
+  }
+  .para {
+    padding-right: 0%;
+    margin-bottom: 20px;
+  }
+  .box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .side {
+    width: 100%;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .griddiv {
+    width: 100%;
+  }
+  .g1div,
+  .g2div {
+    width: 100%;
+  }
+}

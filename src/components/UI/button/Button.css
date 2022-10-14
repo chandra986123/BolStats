@@ -1,0 +1,31 @@
+a {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #2463e9;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+a:hover {
+  color: black;
+  border: 2px solid black;
+}
+
+a.btn {
+  border: 2px solid black;
+  border-radius: 50px;
+  /* margin-left: 1rem; */
+  font-weight: 500;
+  padding: 5px 8px;
+}
+
+a.btn-dark {
+  border: 2px solid black;
+  background: transparent;
+}
+
+a.btn-orange {
+  border: 2px solid transparent;
+  background: #2463e9;
+  color: #2463e9;
+}

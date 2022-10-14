@@ -1,0 +1,164 @@
+.outer {
+  display: flex;
+  width: 86%;
+  flex-direction: row;
+  height: 80vh;
+  background-color: #2463e9;
+  margin: 50px;
+  margin-top: 10px;
+  margin-left: 8%;
+  border-radius: 70px;
+  border-bottom-left-radius: 0;
+}
+.frist {
+  margin-bottom: 5px;
+  background-color: white;
+  width: 70%;
+  height: 95%;
+
+  border-bottom-right-radius: 100%;
+}
+.second {
+  width: 25%;
+  margin: 10px;
+}
+.feature {
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.wrap {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.faqs {
+  margin-left: 8%;
+  font-size: larger;
+  width: 70%;
+  padding-right: 5%;
+}
+.faq {
+  /* margin-left: 8%; */
+  font-size: larger;
+  width: 100%;
+  padding-right: 5%;
+}
+.lotifaq {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.lottie {
+  margin-left: 3%;
+  margin-right: 6%;
+}
+.typo {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: ubuntu;
+}
+
+.buttex:hover {
+  color: white;
+}
+@media only screen and (max-width: 800px) {
+  .outer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+    height: 140vh;
+    margin-left: 5%;
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .frist {
+    margin-bottom: 5px;
+    background-color: white;
+    width: 100%;
+    height: 55%;
+    border-bottom-right-radius: 0px;
+  }
+  .second {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .lotifaq {
+    display: flex;
+    flex-direction: column;
+  }
+  .typo {
+    text-align: left;
+  }
+  .faqs {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 2200px) {
+  .outer {
+    height: 80vh;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .outer {
+    height: 60vh;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .outer {
+    height: 70vh;
+    margin-left: 5%;
+    width: 100%;
+    margin-right: 5%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .outer {
+    height: 80vh;
+    margin-left: 5%;
+    width: 100%;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .outer {
+    height: 110vh;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .outer {
+    height: 130vh;
+    margin-left: 5%;
+    margin-right: 15%;
+    width: 95%;
+  }
+  .typo {
+    text-align: left;
+    font-size: 25px;
+  }
+  .buttonsub {
+    align-self: center;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .outer {
+    height: 130vh;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

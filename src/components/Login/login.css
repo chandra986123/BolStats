@@ -1,0 +1,38 @@
+#lottiep {
+  height: 450px;
+  width: 750px;
+}
+
+@media screen and (max-width: 600px) {
+  #lottiep {
+    height: 250px;
+    width: 300px;
+    margin-left: 4rem;
+    margin-top: -4rem;
+  }
+
+  .form {
+    margin: 2rem;
+  }
+  .form-control {
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+  }
+  .social-icon {
+    margin-right: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 50%;
+
+    display: flex;
+  }
+  .social-icon:hover {
+    background: var(--light-blue);
+    /* border: 1px solid #fff; */
+    color: white;
+  }
+  form button {
+    cursor: pointer;
+  }
+}

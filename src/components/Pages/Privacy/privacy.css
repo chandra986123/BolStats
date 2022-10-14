@@ -1,0 +1,44 @@
+.privacy {
+  margin: 0px;
+  background: rgb(255, 255, 255);
+}
+.seperator {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.policy {
+  margin: 50px;
+}
+
+p {
+  color: grey;
+  font-weight: 300;
+  font-size: large;
+}
+
+.base {
+  font-size: 20px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.title {
+  text-align: center;
+  font-family: ubuntu;
+  margin-bottom: 80px;
+  font-size: 40px;
+  color: #2463e9;
+}
+
+@media only screen and (max-width: 400px) {
+  .base {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .title {
+    font-size: 35px;
+  }
+  .policy {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}

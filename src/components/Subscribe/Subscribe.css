@@ -1,0 +1,81 @@
+section#subcribe {
+  background: url(../../../public/subscribe-bg.jpg);
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--color-white);
+  margin-top: -4rem;
+}
+
+.subscribe h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  color: #2463e9;
+}
+
+form > * {
+  width: 1005;
+  max-width: 50rem;
+  margin: 3rem auto;
+}
+
+form input {
+  padding: 1rem;
+  background: transparent;
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: black;
+  outline: cadetblue;
+  width: 80%;
+  font-size: 1.6rem;
+}
+
+form button {
+  padding: 1rem;
+  background: var(--form-button);
+  border-radius: 30px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  border: 2px solid var(--form-button);
+  cursor: pointer;
+  width: 15rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2463e9;
+}
+
+.social-icon {
+  margin: 2rem;
+  padding: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.social-icon:hover {
+  background: var(--light-blue);
+  /* border: 1px solid #fff; */
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  form input {
+    width: 60%;
+  }
+}
