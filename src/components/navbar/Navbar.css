@@ -202,3 +202,12 @@ a.btn-orange {
     border-bottom: none;
   }
 }
+
+@media only screen and (min-width: 1400px) {
+  .logo {
+    margin-left: -30%;
+  }
+  .nav-links {
+    margin-left: -25%;
+  }
+}

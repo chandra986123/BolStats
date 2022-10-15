@@ -5,7 +5,7 @@ import NewFooter from "../../footer/NewFooter";
 
 const Privacy = () => {
   return (
-    <div className="privacy">
+    <div className="privacy" style={{ overflowY: "hidden" }}>
       <Navbar />
       <div className="policy">
         <Data />

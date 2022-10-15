@@ -36,3 +36,14 @@
     cursor: pointer;
   }
 }
+
+@media only screen and (min-width: 1400px) {
+  .header-left {
+    margin-left: -35%;
+    margin-right: 10%;
+  }
+  .header-right {
+    margin-left: 10%;
+    margin-right: 15%;
+  }
+}

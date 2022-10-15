@@ -1,14 +1,10 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-//import { SiAnaconda } from "react-icons/si";
 import { RiCloseLine } from "react-icons/ri";
 import { AiOutlineBars } from "react-icons/ai";
 import Button from "../UI/button/Button";
 import "../UI/button/Button.css";
-//import logos from "../../assets/logos.png";
 import { Link } from "react-router-dom";
-//import Home from "../../components/Pages/Home/Home";
-//import Login from "../Pages/Login/login";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);

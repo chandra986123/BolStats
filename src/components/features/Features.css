@@ -69,3 +69,11 @@
     margin-bottom: 2rem;
   }
 }
+@media screen and (min-width: 1400px) {
+  .features-left {
+    margin-left: -32%;
+  }
+  .features-right {
+    margin-left: -10%;
+  }
+}

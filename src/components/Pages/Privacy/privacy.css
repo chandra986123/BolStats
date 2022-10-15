@@ -1,6 +1,7 @@
 .privacy {
   margin: 0px;
   background: rgb(255, 255, 255);
+  overflow-y: hidden;
 }
 .seperator {
   display: flex;
